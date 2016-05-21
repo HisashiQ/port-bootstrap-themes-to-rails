@@ -4,5 +4,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bigdecimal (v1.2.7, rbenv: 2.2.3) [gem]" level="application" />
   </component>
 </module>

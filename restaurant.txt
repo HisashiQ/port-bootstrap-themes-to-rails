@@ -1,6 +1,0 @@
-Prezzo	Italian	12	6
-testing this prog	chinese food	48.9874	3
-Test	chinese	70	1
-Regional Thai	Thai	9.50	7
-trer	mexican	7.00	9
-poop	chinese	7	9
