@@ -5,5 +5,7 @@
 .idea
 .idea/*
 *.iml
-
+css
+application.css.scss
+js
 # Created by .ignore support plugin (hsz.mobi)
