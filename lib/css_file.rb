@@ -3,7 +3,6 @@ require 'fileutils'
 class CssFile
 
   def move_css(rails_path)
-    @scss_files = []
     Dir.foreach('.') do |f|
       next if f.start_with?('.')
       if File.directory?(f)
@@ -31,11 +30,6 @@ class CssFile
               if f.include?('scss')
                 print ">>>   "
                 FileUtils.cp f, "#{rails_path}/app/assets/stylesheets", verbose: :true # Copies scss files into app/assets/stylesheets
-              end
-            end
-            Dir.foreach('.') do |f|
-              unless f.include?('.min')
-                @scss_files << f
               end
             end
           end
