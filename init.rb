@@ -1,8 +1,6 @@
-
-
 APP_ROOT = File.dirname(__FILE__)
 
-$:.unshift(File.join(APP_ROOT, 'src'))
+$:.unshift(File.join(APP_ROOT, 'lib'))
 require 'css_file'
 require 'javascript_file'
 require 'manifest_file'

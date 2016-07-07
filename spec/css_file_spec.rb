@@ -1,4 +1,4 @@
-require_relative '../src/css_file'
+require_relative '../lib/css_file'
 require 'rspec'
 
 describe CssFile do

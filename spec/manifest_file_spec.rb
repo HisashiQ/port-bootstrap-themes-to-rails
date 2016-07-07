@@ -1,4 +1,4 @@
-require_relative '../src/manifest_file'
+require_relative '../lib/manifest_file'
 require 'rspec'
 
 describe ManifestFile do
