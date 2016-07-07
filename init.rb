@@ -9,9 +9,9 @@ require 'manifest_file'
 
 puts "Hi! Where would you like me to port this theme to? Enter the rails_path"
 rails_path = gets.chomp
-css = Css_file.new
+css = CssFile.new
 css.move_css(rails_path)
-js = Javascript_file.new
+js = JavascriptFile.new
 js.move_js(rails_path)
-manifest = Manifest_file.new
+manifest = ManifestFile.new
 manifest.change_application_css(rails_path)

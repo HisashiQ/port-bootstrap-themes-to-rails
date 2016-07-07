@@ -1,6 +1,6 @@
 require 'fileutils'
 
-class Manifest_file
+class ManifestFile
 
   def change_application_css(rails_path)
   	File.delete("#{rails_path}/app/assets/stylesheets/application.css")

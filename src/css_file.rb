@@ -1,6 +1,6 @@
 require 'fileutils'
 
-class Css_file
+class CssFile
 
   def move_css(rails_path)
     @scss_files = []

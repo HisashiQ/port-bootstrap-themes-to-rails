@@ -1,7 +1,7 @@
 require 'fileutils'
 
 
-class Javascript_file
+class JavascriptFile
 
   def move_js(rails_path)
 
